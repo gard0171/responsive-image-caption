@@ -5,12 +5,12 @@ html {
   @-webkit-viewport { width: device-width; scale: 1}
   @viewport { width: device-width; scale: 1}
   Typefaces: Georgia
+position: relative
 }
 
 h1 {
-  Typefaces: Denk One;
+  Typefaces: Denk One, sans-serif;
   font-size: 1.5rem;
-  color: #e2e2e2
 }
 
 p {
@@ -19,5 +19,6 @@ p {
 }
 
 background {
-  background: images/dimetrodon.svg;
+  background-color: rgba(0, 0, 0, .3) #e2e2e2;
+  border-radius: 100%/1.3
 }
