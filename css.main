@@ -1,6 +1,15 @@
 html {
+font: Georgia
+font-size: 1.5rem
+color: rgba(0, 0, 0, .3)
 }
+
 h1 {
 font: Denk One;
-font-size: 1.5rem
+font-size: 1.5rem;
+color: #e2e2e2
+}
+
+background {
+background: image;
 }
