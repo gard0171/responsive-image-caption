@@ -1,15 +1,23 @@
 html {
-Typefaces: Georgia
-font-size: 1.3rem
-color: rgba(0, 0, 0, .3)
+  @-moz-viewport { width: device-width; scale: 1}
+  @-ms-viewport { width: device-width; scale: 1}
+  @-o-viewport { width: device-width; scale: 1}
+  @-webkit-viewport { width: device-width; scale: 1}
+  @viewport { width: device-width; scale: 1}
+  Typefaces: Georgia
 }
 
 h1 {
-Typefaces: Denk One;
-font-size: 1.5rem;
-color: #e2e2e2
+  Typefaces: Denk One;
+  font-size: 1.5rem;
+  color: #e2e2e2
+}
+
+p {
+  font-size: 1.3rem
+  color: rgba(0, 0, 0, .3)
 }
 
 background {
-background: images/dimetrodon.svg;
+  background: images/dimetrodon.svg;
 }
